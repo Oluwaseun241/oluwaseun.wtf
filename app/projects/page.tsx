@@ -15,28 +15,28 @@ interface Project {
 export default function ProjectsPage() {
   const projects: Project[] = [
     {
-      title: "Project One",
+      title: "Registro",
       description:
-        "A minimal design project focused on user experience and interaction design.",
+        "A student management system for modern schools built with Django and PostgreSQL.",
       year: "2023",
-      link: "/projects/project-1",
-      tags: ["Design", "UI/UX", "Research"],
+      link: "https://github.com/Oluwaseun241/registro",
+      tags: ["Django", "Python", "PostgreSQL", "REST API"],
     },
     {
-      title: "Project Two",
+      title: "Nuage",
       description:
-        "An experimental web application exploring new interfaces for content consumption.",
+        "A cloud storage service with features like file sharing and collaboration.",
       year: "2022",
-      link: "/projects/project-2",
-      tags: ["Web", "Experimental", "JavaScript"],
+      link: "https://github.com/Oluwaseun241/nuage",
+      tags: ["FastAPI", "Python", "MongoDB", "Docker"],
     },
     {
-      title: "Project Three",
+      title: "Hexlock",
       description:
-        "A branding and identity project for a sustainable product company.",
-      year: "2021",
-      link: "/projects/project-3",
-      tags: ["Branding", "Identity", "Print"],
+        "A secure password manager application with encryption and secure storage.",
+      year: "2022",
+      link: "https://github.com/Oluwaseun241/hexlock",
+      tags: ["Python", "Cryptography", "Security", "SQLite"],
     },
   ];
 
@@ -51,7 +51,9 @@ export default function ProjectsPage() {
             transition={{ duration: 0.5 }}
             className="space-y-4"
           >
-            <h1 className="text-4xl font-bold text-black">Your Name</h1>
+            <h1 className="text-4xl font-bold text-black">
+              Oluwaseun Tanimola
+            </h1>
             <Navigation />
           </motion.div>
 
@@ -64,8 +66,9 @@ export default function ProjectsPage() {
           >
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700">
-                A collection of selected projects across various disciplines
-                including design, development, and creative explorations.
+                A collection of selected projects showcasing my experience in
+                backend development using Python, Django, FastAPI, and other
+                technologies.
               </p>
             </div>
 
@@ -78,7 +81,11 @@ export default function ProjectsPage() {
                   transition={{ delay: 0.2 + index * 0.1, duration: 0.5 }}
                   className="group"
                 >
-                  <Link href={project.link} className="block space-y-2">
+                  <Link
+                    href={project.link}
+                    target="_blank"
+                    className="block space-y-2"
+                  >
                     <div className="flex justify-between items-baseline">
                       <h2 className="text-xl font-medium group-hover:text-gray-600 transition-colors">
                         {project.title}

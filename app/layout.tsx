@@ -20,18 +20,25 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yourportfolio.com"),
+  metadataBase: new URL("https://oluwaseun.dev"),
   icons: {
     icon: "/icon.png",
   },
-  title: "Your Name | Portfolio",
-  description:
-    "Designer and developer portfolio showcasing projects and writing",
+  title: "Oluwaseun Tanimola | Portfolio",
+  description: "Backend Engineer and developer showcasing projects and skills",
   applicationName: "Portfolio",
-  authors: [{ name: "Your Name", url: "https://yourportfolio.com" }],
-  keywords: ["Portfolio", "Design", "Development", "Projects", "Writing"],
-  creator: "Your Name",
-  publisher: "Your Name",
+  authors: [{ name: "Oluwaseun Tanimola", url: "https://oluwaseun.dev" }],
+  keywords: [
+    "Portfolio",
+    "Backend Engineer",
+    "Development",
+    "Python",
+    "Django",
+    "FastAPI",
+    "Projects",
+  ],
+  creator: "Oluwaseun Tanimola",
+  publisher: "Oluwaseun Tanimola",
   generator: "Next.js",
   referrer: "origin",
   robots: {
@@ -40,25 +47,25 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://yourportfolio.com",
-    title: "Your Name | Portfolio",
-    siteName: "Your Name Portfolio",
+    url: "https://oluwaseun.dev",
+    title: "Oluwaseun Tanimola | Portfolio",
+    siteName: "Oluwaseun Tanimola Portfolio",
     locale: "en_US",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Your Name Portfolio",
+        alt: "Oluwaseun Tanimola Portfolio",
       },
     ],
   },
   twitter: {
-    site: "@yourhandle",
-    creator: "@yourhandle",
-    title: "Your Name | Portfolio",
+    site: "@OluwaseunT",
+    creator: "@OluwaseunT",
+    title: "Oluwaseun Tanimola | Portfolio",
     description:
-      "Designer and developer portfolio showcasing projects and writing",
+      "Backend Engineer and developer showcasing projects and skills",
     card: "summary_large_image",
     images: ["/og-image.jpg"],
   },

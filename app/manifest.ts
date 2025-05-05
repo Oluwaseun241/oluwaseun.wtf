@@ -2,10 +2,9 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Your Name | Portfolio",
-    short_name: "Portfolio",
-    description:
-      "Designer and developer portfolio showcasing projects and writing",
+    name: "Oluwaseun Tanimola | Portfolio",
+    short_name: "Oluwaseun",
+    description: "Backend Engineer specializing in Python, Django, and FastAPI",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

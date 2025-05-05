@@ -17,7 +17,9 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="space-y-4"
           >
-            <h1 className="text-4xl font-bold text-black">Your Name</h1>
+            <h1 className="text-4xl font-bold text-black">
+              Oluwaseun Tanimola
+            </h1>
             <Navigation />
           </motion.div>
 
@@ -29,14 +31,14 @@ export default function Home() {
             className="prose max-w-none"
           >
             <p className="text-lg text-gray-700">
-              I'm a designer and developer based in [Your Location]. I build
-              products, design interfaces, and write about technology and
-              creativity.
+              I'm a Backend Engineer based in Nigeria. I specialize in Python,
+              Django, and FastAPI to build robust, scalable web applications and
+              RESTful APIs.
             </p>
 
             <p className="text-lg text-gray-700 mt-4">
-              Currently working on independent projects and available for
-              freelance opportunities.
+              Currently developing backend solutions and available for new
+              opportunities in software engineering.
             </p>
           </motion.div>
 
@@ -50,13 +52,28 @@ export default function Home() {
               <h2 className="text-xl font-semibold mb-4">Recently</h2>
               <ul className="space-y-2">
                 <li className="text-gray-700 hover:text-black transition-colors">
-                  <Link href="/projects/project-1">Project One</Link>
+                  <Link
+                    href="https://github.com/Oluwaseun241/registro"
+                    target="_blank"
+                  >
+                    Registro
+                  </Link>
                 </li>
                 <li className="text-gray-700 hover:text-black transition-colors">
-                  <Link href="/projects/project-2">Project Two</Link>
+                  <Link
+                    href="https://github.com/Oluwaseun241/nuage"
+                    target="_blank"
+                  >
+                    Nuage
+                  </Link>
                 </li>
                 <li className="text-gray-700 hover:text-black transition-colors">
-                  <Link href="/projects/project-3">Project Three</Link>
+                  <Link
+                    href="https://github.com/Oluwaseun241/hexlock"
+                    target="_blank"
+                  >
+                    Hexlock
+                  </Link>
                 </li>
               </ul>
             </motion.div>
@@ -66,11 +83,11 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
             >
-              <h2 className="text-xl font-semibold mb-4">Working on</h2>
+              <h2 className="text-xl font-semibold mb-4">Skills</h2>
               <ul className="space-y-2">
-                <li className="text-gray-700 hover:text-black transition-colors">
-                  <Link href="/current/project-1">Current Project</Link>
-                </li>
+                <li className="text-gray-700">Python, Django, FastAPI</li>
+                <li className="text-gray-700">PostgreSQL, MongoDB, SQLite</li>
+                <li className="text-gray-700">Docker, Git, RESTful APIs</li>
               </ul>
             </motion.div>
           </div>

@@ -3,31 +3,31 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://yourportfolio.com",
+      url: "https://oluwaseun.dev",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "https://yourportfolio.com/career",
+      url: "https://oluwaseun.dev/career",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: "https://yourportfolio.com/projects",
+      url: "https://oluwaseun.dev/projects",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: "https://yourportfolio.com/writing",
+      url: "https://oluwaseun.dev/writing",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: "https://yourportfolio.com/contact",
+      url: "https://oluwaseun.dev/contact",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 0.5,

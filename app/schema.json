@@ -1,25 +1,30 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Your Name",
-  "alternateName": "YourName",
-  "url": "https://yourportfolio.com",
-  "image": "https://yourportfolio.com/portrait.jpg",
-  "description": "Designer and developer creating digital products",
-  "email": "hello@example.com",
-  "jobTitle": "Designer & Developer",
-  "knowsAbout": ["UI/UX Design", "Web Development", "Interaction Design"],
+  "name": "Oluwaseun Tanimola",
+  "alternateName": "Oluwaseun241",
+  "url": "https://oluwaseun.dev",
+  "image": "https://oluwaseun.dev/portrait.jpg",
+  "description": "Backend Engineer specializing in Python, Django, and FastAPI",
+  "email": "oluwaseuntanimola@gmail.com",
+  "jobTitle": "Backend Engineer",
+  "knowsAbout": [
+    "Python",
+    "Django",
+    "FastAPI",
+    "Docker",
+    "PostgreSQL",
+    "REST API"
+  ],
   "sameAs": [
-    "https://twitter.com/yourusername",
-    "https://instagram.com/yourusername",
-    "https://github.com/yourusername",
-    "https://linkedin.com/in/yourusername"
+    "https://linkedin.com/in/oluwaseun-tanimola-67705721b",
+    "https://github.com/Oluwaseun241"
   ],
   "workLocation": {
     "@type": "Place",
     "address": {
       "@type": "PostalAddress",
-      "addressCountry": "Your Country"
+      "addressCountry": "Nigeria"
     }
   }
 }

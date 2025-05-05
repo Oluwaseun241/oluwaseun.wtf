@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://yourportfolio.com/sitemap.xml",
-    host: "https://yourportfolio.com",
+    sitemap: "https://oluwaseun.dev/sitemap.xml",
+    host: "https://oluwaseun.dev",
   };
 }
