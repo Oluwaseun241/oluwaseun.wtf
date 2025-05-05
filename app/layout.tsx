@@ -1,7 +1,7 @@
 import "./global.css";
 import { Toaster } from "sonner";
 import localFont from "next/font/local";
-import { AOS } from "./components/global";
+import { Aos } from "./components/global";
 import { Montserrat } from "next/font/google";
 import type { Metadata, Viewport } from "next";
 
@@ -95,7 +95,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${montserrat.className} ${geistMono.variable} antialiased`}
       >
         <Toaster richColors />
-        <AOS />
+        <Aos />
         {children}
       </body>
     </html>
