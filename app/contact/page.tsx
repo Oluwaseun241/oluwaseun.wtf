@@ -56,7 +56,9 @@ export default function ContactPage() {
             transition={{ duration: 0.5 }}
             className="space-y-4"
           >
-            <h1 className="text-4xl font-bold text-black">Your Name</h1>
+            <h1 className="text-4xl font-bold text-black">
+              Oluwaseun Tanimola
+            </h1>
             <Navigation />
           </motion.div>
 
@@ -70,8 +72,8 @@ export default function ContactPage() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-medium">Get in touch</h2>
               <p className="text-lg text-gray-700">
-                Feel free to reach out about work opportunities, collaborations,
-                or just to say hello.
+                Feel free to reach out about backend development opportunities,
+                collaborations, or just to say hello.
               </p>
             </div>
 
@@ -160,10 +162,10 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-medium mb-2">Email</h3>
                   <a
-                    href="mailto:hello@example.com"
+                    href="mailto:oluwaseuntanimola@gmail.com"
                     className="text-gray-700 hover:text-black transition-colors"
                   >
-                    hello@example.com
+                    oluwaseuntanimola@gmail.com
                   </a>
                 </div>
 
@@ -172,17 +174,7 @@ export default function ContactPage() {
                   <ul className="space-y-2">
                     <li>
                       <a
-                        href="https://twitter.com/yourusername"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-700 hover:text-black transition-colors"
-                      >
-                        Twitter
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://linkedin.com/in/yourusername"
+                        href="https://linkedin.com/in/oluwaseun-tanimola-67705721b"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-700 hover:text-black transition-colors"
@@ -192,7 +184,7 @@ export default function ContactPage() {
                     </li>
                     <li>
                       <a
-                        href="https://github.com/yourusername"
+                        href="https://github.com/Oluwaseun241"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-700 hover:text-black transition-colors"
@@ -205,7 +197,7 @@ export default function ContactPage() {
 
                 <div>
                   <h3 className="font-medium mb-2">Location</h3>
-                  <p className="text-gray-700">Your Location, Country</p>
+                  <p className="text-gray-700">Nigeria</p>
                 </div>
               </div>
             </div>

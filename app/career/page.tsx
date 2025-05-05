@@ -16,7 +16,9 @@ export default function CareerPage() {
             transition={{ duration: 0.5 }}
             className="space-y-4"
           >
-            <h1 className="text-4xl font-bold text-black">Your Name</h1>
+            <h1 className="text-4xl font-bold text-black">
+              Oluwaseun Tanimola
+            </h1>
             <Navigation />
           </motion.div>
 
@@ -33,62 +35,56 @@ export default function CareerPage() {
               <div className="space-y-8">
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">Senior Designer</h3>
+                    <h3 className="font-medium">Backend Developer</h3>
                     <span className="text-gray-500 text-sm">
                       2022 — Present
                     </span>
                   </div>
-                  <p className="text-gray-700">Company One</p>
+                  <p className="text-gray-700">Freelance</p>
                   <ul className="list-disc pl-5 text-gray-700 mt-2 space-y-1">
                     <li>
-                      Led design for flagship product, increasing user
-                      engagement by 45%
+                      Developed RESTful APIs using Django and FastAPI for web
+                      applications
                     </li>
                     <li>
-                      Mentored junior designers, implemented design system
+                      Implemented database models and optimized query
+                      performance
                     </li>
                     <li>
-                      Collaborated with cross-functional teams on product
-                      strategy
+                      Containerized applications with Docker for easy deployment
                     </li>
                   </ul>
                 </div>
 
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">Product Designer</h3>
-                    <span className="text-gray-500 text-sm">2019 — 2022</span>
+                    <h3 className="font-medium">Backend Engineer</h3>
+                    <span className="text-gray-500 text-sm">2021 — 2022</span>
                   </div>
-                  <p className="text-gray-700">Company Two</p>
+                  <p className="text-gray-700">Tech Startup</p>
                   <ul className="list-disc pl-5 text-gray-700 mt-2 space-y-1">
                     <li>
-                      Designed user interfaces for mobile and web applications
+                      Built scalable backend services with Python and PostgreSQL
                     </li>
-                    <li>Conducted user research and usability testing</li>
                     <li>
-                      Created wireframes, prototypes, and high-fidelity designs
+                      Implemented authentication and authorization systems
                     </li>
+                    <li>Collaborated with frontend team to integrate APIs</li>
                   </ul>
                 </div>
 
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">UI/UX Designer</h3>
-                    <span className="text-gray-500 text-sm">2017 — 2019</span>
+                    <h3 className="font-medium">Junior Developer</h3>
+                    <span className="text-gray-500 text-sm">2020 — 2021</span>
                   </div>
-                  <p className="text-gray-700">Company Three</p>
+                  <p className="text-gray-700">Web Development Agency</p>
                   <ul className="list-disc pl-5 text-gray-700 mt-2 space-y-1">
                     <li>
-                      Redesigned company website, improving conversion rate by
-                      25%
+                      Assisted in developing backend systems for client projects
                     </li>
-                    <li>
-                      Created brand identity guidelines and marketing materials
-                    </li>
-                    <li>
-                      Developed UI pattern library for consistent product
-                      experience
-                    </li>
+                    <li>Managed database operations and API integrations</li>
+                    <li>Implemented test-driven development practices</li>
                   </ul>
                 </div>
               </div>
@@ -100,20 +96,21 @@ export default function CareerPage() {
               <div className="space-y-6">
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">Master of Design</h3>
-                    <span className="text-gray-500 text-sm">2015 — 2017</span>
+                    <h3 className="font-medium">BSc in Computer Science</h3>
+                    <span className="text-gray-500 text-sm">2017 — 2021</span>
                   </div>
-                  <p className="text-gray-700">University Name</p>
+                  <p className="text-gray-700">University of Lagos</p>
                 </div>
 
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">
-                      Bachelor of Arts, Visual Communication
-                    </h3>
-                    <span className="text-gray-500 text-sm">2011 — 2015</span>
+                    <h3 className="font-medium">Certifications</h3>
+                    <span className="text-gray-500 text-sm">2020 — 2023</span>
                   </div>
-                  <p className="text-gray-700">College Name</p>
+                  <p className="text-gray-700">
+                    Python Developer Certification, Django for Web Development,
+                    Docker Essentials
+                  </p>
                 </div>
               </div>
             </div>

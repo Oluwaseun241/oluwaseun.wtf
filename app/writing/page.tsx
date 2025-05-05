@@ -15,31 +15,32 @@ interface Article {
 export default function WritingPage() {
   const articles: Article[] = [
     {
-      title: "Designing for the Next Billion Users",
-      summary: "How to create inclusive digital products for emerging markets.",
-      date: "June 2023",
-      link: "/writing/designing-for-next-billion",
+      title: "Building Scalable APIs with FastAPI",
+      summary:
+        "A guide to creating high-performance REST APIs using FastAPI and Python.",
+      date: "May 2023",
+      link: "/writing/scalable-fastapi",
     },
     {
-      title: "The Future of Interaction Design",
+      title: "Database Optimization Techniques for Django",
       summary:
-        "Exploring how AR, VR, and voice will reshape our digital experiences.",
+        "How to improve query performance and optimize database operations in Django applications.",
       date: "March 2023",
-      link: "/writing/future-of-interaction",
+      link: "/writing/django-database-optimization",
     },
     {
-      title: "Why Minimalism Still Matters",
+      title: "Implementing Authentication in RESTful APIs",
       summary:
-        "In an era of feature-rich products, simplicity remains powerful.",
+        "Best practices for secure authentication and authorization in modern web APIs.",
       date: "November 2022",
-      link: "/writing/minimalism-matters",
+      link: "/writing/rest-api-authentication",
     },
     {
-      title: "Design Systems at Scale",
+      title: "Docker Containerization for Python Applications",
       summary:
-        "Lessons learned from implementing design systems across large organizations.",
+        "A practical guide to containerizing your Python applications for consistent deployment.",
       date: "July 2022",
-      link: "https://medium.com/example",
+      link: "https://dev.to/oluwaseun241",
       external: true,
     },
   ];
@@ -55,7 +56,9 @@ export default function WritingPage() {
             transition={{ duration: 0.5 }}
             className="space-y-4"
           >
-            <h1 className="text-4xl font-bold text-black">Your Name</h1>
+            <h1 className="text-4xl font-bold text-black">
+              Oluwaseun Tanimola
+            </h1>
             <Navigation />
           </motion.div>
 
@@ -68,8 +71,9 @@ export default function WritingPage() {
           >
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700">
-                Essays and articles about design, technology, and creativity. I
-                write to clarify my thinking and share insights from my work.
+                Articles and tutorials about backend development, Python, and
+                software engineering. I write to share technical insights and
+                document solutions to common challenges.
               </p>
             </div>
 
