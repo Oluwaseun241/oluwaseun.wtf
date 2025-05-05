@@ -7,7 +7,7 @@ import { Animation, Navigation, Footer } from "../components/global";
 export default function CareerPage() {
   return (
     <Animation>
-      <div className="min-h-screen bg-white p-8">
+      <div className="min-h-screen bg-white dark:bg-black p-8">
         <div className="max-w-3xl mx-auto space-y-12 pt-12">
           {/* Header */}
           <motion.div
@@ -16,7 +16,7 @@ export default function CareerPage() {
             transition={{ duration: 0.5 }}
             className="space-y-4"
           >
-            <h1 className="text-4xl font-bold text-black">
+            <h1 className="text-4xl font-bold text-black dark:text-white">
               Oluwaseun Tanimola
             </h1>
             <Navigation />
@@ -30,18 +30,22 @@ export default function CareerPage() {
             className="space-y-12"
           >
             <div>
-              <h2 className="text-xl font-semibold mb-6">Experience</h2>
+              <h2 className="text-xl font-semibold mb-6 dark:text-white">
+                Experience
+              </h2>
 
               <div className="space-y-8">
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">AI Engineer</h3>
-                    <span className="text-gray-500 text-sm">
+                    <h3 className="font-medium dark:text-white">AI Engineer</h3>
+                    <span className="text-gray-500 dark:text-gray-400 text-sm">
                       Mar 2024 — Present
                     </span>
                   </div>
-                  <p className="text-gray-700">Farm Monitor Africa</p>
-                  <ul className="list-disc pl-5 text-gray-700 mt-2 space-y-1">
+                  <p className="text-gray-700 dark:text-gray-300">
+                    Farm Monitor Africa
+                  </p>
+                  <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 mt-2 space-y-1">
                     <li>
                       Developed RESTful APIs using Django and FastAPI for web
                       applications
@@ -58,13 +62,17 @@ export default function CareerPage() {
 
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">Backend Engineer</h3>
-                    <span className="text-gray-500 text-sm">
+                    <h3 className="font-medium dark:text-white">
+                      Backend Engineer
+                    </h3>
+                    <span className="text-gray-500 dark:text-gray-400 text-sm">
                       Jan 2024 — July 2024
                     </span>
                   </div>
-                  <p className="text-gray-700">Faraday Africa</p>
-                  <ul className="list-disc pl-5 text-gray-700 mt-2 space-y-1">
+                  <p className="text-gray-700 dark:text-gray-300">
+                    Faraday Africa
+                  </p>
+                  <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 mt-2 space-y-1">
                     <li>
                       Design and Built an ads microservice, efficiently
                       delivering targeted ads to users
@@ -83,15 +91,17 @@ export default function CareerPage() {
 
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">Software Engineer</h3>
-                    <span className="text-gray-500 text-sm">
+                    <h3 className="font-medium dark:text-white">
+                      Software Engineer
+                    </h3>
+                    <span className="text-gray-500 dark:text-gray-400 text-sm">
                       April 2023 — July 2023
                     </span>
                   </div>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 dark:text-gray-300">
                     Cyber Junior (Web Development Agency)
                   </p>
-                  <ul className="list-disc pl-5 text-gray-700 mt-2 space-y-1">
+                  <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 mt-2 space-y-1">
                     <li>
                       Successfuly developed and deployed an e-commerce website
                       serving 100+ orders per day
@@ -103,29 +113,35 @@ export default function CareerPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold mb-6">Education</h2>
+              <h2 className="text-xl font-semibold mb-6 dark:text-white">
+                Education
+              </h2>
 
               <div className="space-y-6">
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">
+                    <h3 className="font-medium dark:text-white">
                       B.Tech Pure and Applied Physics
                     </h3>
-                    <span className="text-gray-500 text-sm">
+                    <span className="text-gray-500 dark:text-gray-400 text-sm">
                       November 2019 — October 2024
                     </span>
                   </div>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 dark:text-gray-300">
                     Ladoke Akintola University of Technology, Nigeria
                   </p>
                 </div>
 
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">Certifications</h3>
-                    <span className="text-gray-500 text-sm">2020 — 2023</span>
+                    <h3 className="font-medium dark:text-white">
+                      Certifications
+                    </h3>
+                    <span className="text-gray-500 dark:text-gray-400 text-sm">
+                      2020 — 2023
+                    </span>
                   </div>
-                  <p className="text-gray-700">
+                  <p className="text-gray-700 dark:text-gray-300">
                     Python Developer Certification, Django for Web Development,
                     Docker Essentials
                   </p>

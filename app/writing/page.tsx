@@ -47,7 +47,7 @@ export default function WritingPage() {
 
   return (
     <Animation>
-      <div className="min-h-screen bg-white p-8">
+      <div className="min-h-screen bg-white dark:bg-black p-8">
         <div className="max-w-3xl mx-auto space-y-12 pt-12">
           {/* Header */}
           <motion.div
@@ -56,7 +56,7 @@ export default function WritingPage() {
             transition={{ duration: 0.5 }}
             className="space-y-4"
           >
-            <h1 className="text-4xl font-bold text-black">
+            <h1 className="text-4xl font-bold text-black dark:text-white">
               Oluwaseun Tanimola
             </h1>
             <Navigation />
@@ -70,7 +70,7 @@ export default function WritingPage() {
             className="space-y-8"
           >
             <div className="prose max-w-none">
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-gray-700 dark:text-gray-300">
                 Articles and tutorials about backend development, Python, and
                 software engineering. I write to share technical insights and
                 document solutions to common challenges.
@@ -93,7 +93,7 @@ export default function WritingPage() {
                       className="block group space-y-2"
                     >
                       <div className="flex justify-between items-baseline">
-                        <h2 className="text-xl font-medium group-hover:text-gray-600 transition-colors flex items-center">
+                        <h2 className="text-xl font-medium group-hover:text-gray-600 dark:text-white dark:group-hover:text-gray-300 transition-colors flex items-center">
                           {article.title}
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -110,23 +110,27 @@ export default function WritingPage() {
                             />
                           </svg>
                         </h2>
-                        <span className="text-gray-500 text-sm">
+                        <span className="text-gray-500 dark:text-gray-400 text-sm">
                           {article.date}
                         </span>
                       </div>
-                      <p className="text-gray-700">{article.summary}</p>
+                      <p className="text-gray-700 dark:text-gray-300">
+                        {article.summary}
+                      </p>
                     </a>
                   ) : (
                     <Link href={article.link} className="block group space-y-2">
                       <div className="flex justify-between items-baseline">
-                        <h2 className="text-xl font-medium group-hover:text-gray-600 transition-colors">
+                        <h2 className="text-xl font-medium group-hover:text-gray-600 dark:text-white dark:group-hover:text-gray-300 transition-colors">
                           {article.title}
                         </h2>
-                        <span className="text-gray-500 text-sm">
+                        <span className="text-gray-500 dark:text-gray-400 text-sm">
                           {article.date}
                         </span>
                       </div>
-                      <p className="text-gray-700">{article.summary}</p>
+                      <p className="text-gray-700 dark:text-gray-300">
+                        {article.summary}
+                      </p>
                     </Link>
                   )}
                 </motion.div>
