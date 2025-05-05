@@ -31,9 +31,10 @@ export default function Home() {
             className="prose max-w-none"
           >
             <p className="text-lg text-gray-700">
-              I'm a Backend Engineer based in Nigeria. I specialize in Python,
-              Django, and FastAPI to build robust, scalable web applications and
-              RESTful APIs.
+              I'm a B.Tech Physics student at Ladoke Akintola University of
+              Technology and a Backend Engineer based in Nigeria. I specialize
+              in Python, Django, and FastAPI to build robust, scalable web
+              applications and RESTful APIs.
             </p>
 
             <p className="text-lg text-gray-700 mt-4">
@@ -86,6 +87,7 @@ export default function Home() {
               <h2 className="text-xl font-semibold mb-4">Skills</h2>
               <ul className="space-y-2">
                 <li className="text-gray-700">Python, Django, FastAPI</li>
+                <li className="text-gray-700">JavaScript, TypeScript</li>
                 <li className="text-gray-700">PostgreSQL, MongoDB, SQLite</li>
                 <li className="text-gray-700">Docker, Git, RESTful APIs</li>
               </ul>

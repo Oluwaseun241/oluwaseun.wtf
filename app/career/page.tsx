@@ -96,10 +96,16 @@ export default function CareerPage() {
               <div className="space-y-6">
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">BSc in Computer Science</h3>
-                    <span className="text-gray-500 text-sm">2017 — 2021</span>
+                    <h3 className="font-medium">
+                      B.Tech Pure and Applied Physics
+                    </h3>
+                    <span className="text-gray-500 text-sm">
+                      November 2019 — October 2024
+                    </span>
                   </div>
-                  <p className="text-gray-700">University of Lagos</p>
+                  <p className="text-gray-700">
+                    Ladoke Akintola University of Technology, Nigeria
+                  </p>
                 </div>
 
                 <div className="space-y-2">

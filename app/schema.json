@@ -5,16 +5,19 @@
   "alternateName": "Oluwaseun241",
   "url": "https://oluwaseun.dev",
   "image": "https://oluwaseun.dev/portrait.jpg",
-  "description": "Backend Engineer specializing in Python, Django, and FastAPI",
+  "description": "B.Tech Physics student and Backend Engineer specializing in Python, Django, FastAPI, and JavaScript/TypeScript",
   "email": "oluwaseuntanimola@gmail.com",
-  "jobTitle": "Backend Engineer",
+  "jobTitle": "Backend Engineer & Physics Student",
   "knowsAbout": [
     "Python",
     "Django",
     "FastAPI",
+    "JavaScript",
+    "TypeScript",
     "Docker",
     "PostgreSQL",
-    "REST API"
+    "REST API",
+    "Git"
   ],
   "sameAs": [
     "https://linkedin.com/in/oluwaseun-tanimola-67705721b",
@@ -26,5 +29,10 @@
       "@type": "PostalAddress",
       "addressCountry": "Nigeria"
     }
+  },
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "Ladoke Akintola University of Technology",
+    "location": "Nigeria"
   }
 }
