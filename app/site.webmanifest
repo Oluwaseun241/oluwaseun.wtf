@@ -1,6 +1,6 @@
 {
-  "name": "next template",
-  "short_name": "template",
+  "name": "Your Name | Portfolio",
+  "short_name": "Portfolio",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

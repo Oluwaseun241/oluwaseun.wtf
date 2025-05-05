@@ -1,37 +1,25 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "object",
-  "patternProperties": {
-    "^[a-zA-Z]+$": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string"
-        },
-        "type": {
-          "type": "string"
-        },
-        "fileMatch": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "commands": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "command_alias": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "string"
-          }
-        }
-      },
-      "required": ["name", "type", "fileMatch", "commands", "command_alias"]
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Your Name",
+  "alternateName": "YourName",
+  "url": "https://yourportfolio.com",
+  "image": "https://yourportfolio.com/portrait.jpg",
+  "description": "Designer and developer creating digital products",
+  "email": "hello@example.com",
+  "jobTitle": "Designer & Developer",
+  "knowsAbout": ["UI/UX Design", "Web Development", "Interaction Design"],
+  "sameAs": [
+    "https://twitter.com/yourusername",
+    "https://instagram.com/yourusername",
+    "https://github.com/yourusername",
+    "https://linkedin.com/in/yourusername"
+  ],
+  "workLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Your Country"
     }
-  },
-  "additionalProperties": false
+  }
 }
