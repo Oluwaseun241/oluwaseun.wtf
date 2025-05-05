@@ -53,19 +53,17 @@ export default function Home() {
               <h2 className="text-xl font-semibold mb-4">Recently</h2>
               <ul className="space-y-2">
                 <li className="text-gray-700 hover:text-black transition-colors">
+                  <Link href="https://www.tastrees.xyz" target="_blank">
+                    Tastrees AI
+                  </Link>
+                </li>
+
+                <li className="text-gray-700 hover:text-black transition-colors">
                   <Link
                     href="https://github.com/Oluwaseun241/registro"
                     target="_blank"
                   >
                     Registro
-                  </Link>
-                </li>
-                <li className="text-gray-700 hover:text-black transition-colors">
-                  <Link
-                    href="https://github.com/Oluwaseun241/nuage"
-                    target="_blank"
-                  >
-                    Nuage
                   </Link>
                 </li>
                 <li className="text-gray-700 hover:text-black transition-colors">
@@ -86,10 +84,12 @@ export default function Home() {
             >
               <h2 className="text-xl font-semibold mb-4">Skills</h2>
               <ul className="space-y-2">
-                <li className="text-gray-700">Python, Django, FastAPI</li>
-                <li className="text-gray-700">JavaScript, TypeScript</li>
+                <li className="text-gray-700">Golang, Python, Typescript</li>
+                <li className="text-gray-700">
+                  FastAPI, Express, React Native
+                </li>
                 <li className="text-gray-700">PostgreSQL, MongoDB, SQLite</li>
-                <li className="text-gray-700">Docker, Git, RESTful APIs</li>
+                <li className="text-gray-700">Docker, Kafka, RabbitMQ</li>
               </ul>
             </motion.div>
           </div>

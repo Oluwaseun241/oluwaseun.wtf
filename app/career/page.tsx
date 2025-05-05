@@ -35,12 +35,12 @@ export default function CareerPage() {
               <div className="space-y-8">
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">Backend Developer</h3>
+                    <h3 className="font-medium">AI Engineer</h3>
                     <span className="text-gray-500 text-sm">
-                      2022 — Present
+                      Mar 2024 — Present
                     </span>
                   </div>
-                  <p className="text-gray-700">Freelance</p>
+                  <p className="text-gray-700">Farm Monitor Africa</p>
                   <ul className="list-disc pl-5 text-gray-700 mt-2 space-y-1">
                     <li>
                       Developed RESTful APIs using Django and FastAPI for web
@@ -59,31 +59,43 @@ export default function CareerPage() {
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
                     <h3 className="font-medium">Backend Engineer</h3>
-                    <span className="text-gray-500 text-sm">2021 — 2022</span>
+                    <span className="text-gray-500 text-sm">
+                      Jan 2024 — July 2024
+                    </span>
                   </div>
-                  <p className="text-gray-700">Tech Startup</p>
+                  <p className="text-gray-700">Faraday Africa</p>
                   <ul className="list-disc pl-5 text-gray-700 mt-2 space-y-1">
                     <li>
-                      Built scalable backend services with Python and PostgreSQL
+                      Design and Built an ads microservice, efficiently
+                      delivering targeted ads to users
                     </li>
                     <li>
-                      Implemented authentication and authorization systems
+                      Maintain and optimize the backend architecture, ensuring
+                      seamless functionality, scalability and reliability
+                      reducing response time per request from 1.2s to 400ms
                     </li>
-                    <li>Collaborated with frontend team to integrate APIs</li>
+                    <li>
+                      Ensure comprehensive documentation of API for easier
+                      collaboration with frontend team
+                    </li>
                   </ul>
                 </div>
 
                 <div className="space-y-2">
                   <div className="flex justify-between items-start">
-                    <h3 className="font-medium">Junior Developer</h3>
-                    <span className="text-gray-500 text-sm">2020 — 2021</span>
+                    <h3 className="font-medium">Software Engineer</h3>
+                    <span className="text-gray-500 text-sm">
+                      April 2023 — July 2023
+                    </span>
                   </div>
-                  <p className="text-gray-700">Web Development Agency</p>
+                  <p className="text-gray-700">
+                    Cyber Junior (Web Development Agency)
+                  </p>
                   <ul className="list-disc pl-5 text-gray-700 mt-2 space-y-1">
                     <li>
-                      Assisted in developing backend systems for client projects
+                      Successfuly developed and deployed an e-commerce website
+                      serving 100+ orders per day
                     </li>
-                    <li>Managed database operations and API integrations</li>
                     <li>Implemented test-driven development practices</li>
                   </ul>
                 </div>

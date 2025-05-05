@@ -15,28 +15,27 @@ interface Project {
 export default function ProjectsPage() {
   const projects: Project[] = [
     {
-      title: "Registro",
+      title: "Tastrees AI",
       description:
-        "A student management system for modern schools built with Django and PostgreSQL.",
-      year: "2023",
-      link: "https://github.com/Oluwaseun241/registro",
-      tags: ["Django", "Python", "PostgreSQL", "REST API"],
+        "You've got an image of already cooked food say less we will help you recreate it by serving you the recipe and instructions.",
+      year: "2024",
+      link: "https://www.tastrees.xyz",
+      tags: ["Golang", "Nuxt"],
     },
     {
-      title: "Nuage",
-      description:
-        "A cloud storage service with features like file sharing and collaboration.",
-      year: "2022",
-      link: "https://github.com/Oluwaseun241/nuage",
-      tags: ["FastAPI", "Python", "MongoDB", "Docker"],
+      title: "Registro",
+      description: "A blockchain-based event ledger.",
+      year: "2024",
+      link: "https://github.com/Oluwaseun241/registro",
+      tags: ["Golang", "Kafka"],
     },
     {
       title: "Hexlock",
       description:
-        "A secure password manager application with encryption and secure storage.",
-      year: "2022",
+        "A CLI tool for file encryption, decryption and compression.",
+      year: "2023",
       link: "https://github.com/Oluwaseun241/hexlock",
-      tags: ["Python", "Cryptography", "Security", "SQLite"],
+      tags: ["Golang", "Cryptography", "Security", "CLI"],
     },
   ];
 
@@ -67,7 +66,7 @@ export default function ProjectsPage() {
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700">
                 A collection of selected projects showcasing my experience in
-                backend development using Python, Django, FastAPI, and other
+                backend development using Golang, Python, Typescript, and other
                 technologies.
               </p>
             </div>
