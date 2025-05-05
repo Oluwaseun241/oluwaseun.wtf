@@ -1,5 +1,4 @@
 import "./global.css";
-import { Toaster } from "sonner";
 import localFont from "next/font/local";
 import { Montserrat } from "next/font/google";
 import type { Metadata, Viewport } from "next";
@@ -7,11 +6,6 @@ import type { Metadata, Viewport } from "next";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
   weight: "100 900",
 });
 
@@ -26,18 +20,18 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nextapptemplate.xyz"),
+  metadataBase: new URL("https://yourportfolio.com"),
   icons: {
     icon: "/icon.png",
   },
-  title: "nextjs template",
+  title: "Your Name | Portfolio",
   description:
-    "I fell in love with next.js, im trying to make a template for it also",
-  applicationName: "next Web Application",
-  authors: [{ name: "nextapp template", url: "https://domainname.host" }],
-  keywords: ["NextJs", "reactjs", "template", "typescript"],
-  creator: "VickyJay",
-  publisher: "VickyJay",
+    "Designer and developer portfolio showcasing projects and writing",
+  applicationName: "Portfolio",
+  authors: [{ name: "Your Name", url: "https://yourportfolio.com" }],
+  keywords: ["Portfolio", "Design", "Development", "Projects", "Writing"],
+  creator: "Your Name",
+  publisher: "Your Name",
   generator: "Next.js",
   referrer: "origin",
   robots: {
@@ -46,41 +40,28 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://domainname.host",
-    title: "Nextjs template",
-    siteName: "nextapp template",
+    url: "https://yourportfolio.com",
+    title: "Your Name | Portfolio",
+    siteName: "Your Name Portfolio",
     locale: "en_US",
     images: [
       {
-        url: "linktoopengraphimage.cdn",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "next OG Image",
+        alt: "Your Name Portfolio",
       },
     ],
   },
   twitter: {
-    site: "nextapp",
-    creator: "socialmediahandle",
-    title:
-      "nextapp template - I fell in love with next.js, im trying to make a template for it tooo",
+    site: "@yourhandle",
+    creator: "@yourhandle",
+    title: "Your Name | Portfolio",
     description:
-      "I fell in love with next.js, im trying to make a template for it too",
+      "Designer and developer portfolio showcasing projects and writing",
     card: "summary_large_image",
-    images: ["linktoopengraph.com"],
+    images: ["/og-image.jpg"],
   },
-  appleWebApp: {
-    capable: true,
-    title: "nextapp template",
-    statusBarStyle: "black-translucent",
-  },
-  formatDetection: {
-    telephone: false,
-  },
-  abstract:
-    "I fell in love with next.js, im trying to make a template for it tooo",
-  category: "Social",
-  classification: "Social",
 };
 
 export default function RootLayout({
@@ -91,9 +72,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${montserrat.className} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${montserrat.className} antialiased`}
       >
-        <Toaster richColors />
         {children}
       </body>
     </html>

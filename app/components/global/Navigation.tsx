@@ -15,8 +15,8 @@ export function Navigation({ className = "" }: NavigationProps) {
     { label: "Career", path: "/career" },
     { label: "Writing", path: "/writing" },
     { label: "Projects", path: "/projects" },
-    { label: "Playlists", path: "/playlists" },
-    { label: "Studio", path: "/studio" },
+    // { label: "Playlists", path: "/playlists" },
+    // { label: "Studio", path: "/studio" },
   ];
 
   return (
