@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { Montserrat } from "next/font/google";
 import type { Metadata, Viewport } from "next";
 import { ThemeProvider } from "./context/ThemeContext";
+import "highlight.js/styles/github-dark.css";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

@@ -31,7 +31,7 @@ export default function CareerPage() {
           >
             <div>
               <h2 className="text-xl font-semibold mb-6 dark:text-white">
-                Experience
+                Work Experience
               </h2>
 
               <div className="space-y-8">
@@ -47,15 +47,13 @@ export default function CareerPage() {
                   </p>
                   <ul className="list-disc pl-5 text-gray-700 dark:text-gray-300 mt-2 space-y-1">
                     <li>
-                      Developed RESTful APIs using Django and FastAPI for web
-                      applications
+                      Engineered a backend service for generating full-season farming calendars using AI and agronomic data (crop, soil, weather, location).
                     </li>
                     <li>
-                      Implemented database models and optimized query
-                      performance
+                      Designed adaptive scheduling system that regenerates activities based on 14-day weather forecasts.
                     </li>
                     <li>
-                      Containerized applications with Docker for easy deployment
+                      Developed weekly yield prediction engine factoring in real-time weather and satellite indices (NDVI, SMI).
                     </li>
                   </ul>
                 </div>
@@ -124,7 +122,7 @@ export default function CareerPage() {
                       B.Tech Pure and Applied Physics
                     </h3>
                     <span className="text-gray-500 dark:text-gray-400 text-sm">
-                      November 2019 — October 2024
+                      2019 — 2024
                     </span>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300">

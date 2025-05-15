@@ -14,11 +14,11 @@ export default function ContactPage() {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<null | "success" | "error">(
-    null
+    null,
   );
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData({
@@ -167,7 +167,7 @@ export default function ContactPage() {
                     href="mailto:tanimolaoluwaseun70@gmail.com"
                     className="text-gray-700 dark:text-gray-300 hover:text-black dark:hover:text-white transition-colors"
                   >
-                    oluwaseuntanimola@gmail.com
+                    tanimolaoluwaseun70@gmail.com
                   </a>
                 </div>
 
