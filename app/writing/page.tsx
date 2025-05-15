@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { Animation, Navigation, Footer } from "../components/global";
 import { getAllArticles } from "../lib/markdown";
-import { ArticleMetadata } from "../lib/markdown";
 import { AnimatedContent } from "../components/AnimatedContent";
+import { Animation, Navigation, Footer } from "../components/global";
 
 export default async function WritingPage() {
   const articles = await getAllArticles();
@@ -23,15 +22,18 @@ export default async function WritingPage() {
           <AnimatedContent>
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 dark:text-gray-300">
-                Articles about backend engineering. I write to share technical insights and
-                document my journey through software engineering.
+                Articles about backend engineering. I write to share technical
+                insights and document my journey through software engineering.
               </p>
             </div>
 
             <div className="space-y-10 mt-8">
               {articles.map((article, index) => (
                 <div key={article.slug}>
-                  <Link href={`/writing/${article.slug}`} className="block group space-y-2">
+                  <Link
+                    href={`/writing/${article.slug}`}
+                    className="block group space-y-2"
+                  >
                     <div className="flex justify-between items-baseline">
                       <h2 className="text-xl font-medium group-hover:text-gray-600 dark:text-white dark:group-hover:text-gray-300 transition-colors">
                         {article.title}

@@ -1,7 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { Animation, Navigation, Footer } from "../components/global";
 
 interface Project {

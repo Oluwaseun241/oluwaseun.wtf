@@ -1,6 +1,10 @@
-import { getArticleBySlug, getAllArticles, ArticleMetadata } from "../../lib/markdown";
-import { Animation, Navigation, Footer } from "../../components/global";
 import { notFound } from "next/navigation";
+import { Animation, Navigation, Footer } from "../../components/global";
+import {
+  getArticleBySlug,
+  getAllArticles,
+  ArticleMetadata,
+} from "../../lib/markdown";
 
 export async function generateStaticParams() {
   const articles = await getAllArticles();
@@ -18,7 +22,7 @@ export default async function ArticlePage({
 }: {
   params: { slug: string };
 }) {
-  const article = await getArticleBySlug(params.slug) as Article;
+  const article = (await getArticleBySlug(params.slug)) as Article;
 
   if (!article) {
     notFound();
@@ -29,8 +33,9 @@ export default async function ArticlePage({
       <div className="min-h-screen bg-white dark:bg-black p-8">
         <div className="max-w-3xl mx-auto space-y-12 pt-12">
           <Navigation />
-          
-          <article className="prose dark:prose-invert max-w-none 
+
+          <article
+            className="prose dark:prose-invert max-w-none 
             prose-headings:font-bold prose-headings:tracking-tight 
             prose-h1:text-4xl prose-h1:mb-8 prose-h1:font-bold
             prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:font-bold
@@ -52,12 +57,13 @@ export default async function ArticlePage({
             prose-blockquote:pl-4 prose-blockquote:italic
             prose-img:rounded-lg prose-img:my-8
             prose-hr:my-8 prose-hr:border-gray-200 dark:prose-hr:border-gray-800
-            [&>*]:mb-4 [&>*:last-child]:mb-0">
+            [&>*]:mb-4 [&>*:last-child]:mb-0"
+          >
             <h1 className="text-4xl font-bold mb-4">{article.title}</h1>
             <div className="text-gray-500 dark:text-gray-400 mb-8">
               {article.date}
             </div>
-            <div 
+            <div
               className="prose-pre:bg-gray-100 dark:prose-pre:bg-gray-800 
                 prose-pre:p-4 prose-pre:rounded-lg 
                 prose-code:text-gray-800 dark:prose-code:text-gray-200 
@@ -74,7 +80,7 @@ export default async function ArticlePage({
                 [&>pre]:my-6
                 [&>blockquote]:my-6
                 [&>hr]:my-8"
-              dangerouslySetInnerHTML={{ __html: article.content }} 
+              dangerouslySetInnerHTML={{ __html: article.content }}
             />
           </article>
 
@@ -83,4 +89,4 @@ export default async function ArticlePage({
       </div>
     </Animation>
   );
-} 
+}

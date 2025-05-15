@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Animation, Navigation, Footer } from "./components/global";
 import { motion } from "framer-motion";
+import { Animation, Navigation, Footer } from "./components/global";
 
 export default function NotFound() {
   return (
@@ -29,7 +29,9 @@ export default function NotFound() {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="flex flex-col items-center justify-center space-y-6 py-12"
           >
-            <h2 className="text-6xl font-bold text-black dark:text-white">404</h2>
+            <h2 className="text-6xl font-bold text-black dark:text-white">
+              404
+            </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300">
               The page you are looking for doesn't exist.
             </p>
