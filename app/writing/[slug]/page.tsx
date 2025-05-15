@@ -17,11 +17,12 @@ interface Article extends ArticleMetadata {
   content: string;
 }
 
-export default async function ArticlePage({
-  params,
-}: {
+type ArticlePageParams = {
   params: { slug: string };
-}) {
+  searchParams?: { [key: string]: string | string[] | undefined };
+};
+
+export default async function ArticlePage({ params }: ArticlePageParams) {
   const article = (await getArticleBySlug(params.slug)) as Article;
 
   if (!article) {
