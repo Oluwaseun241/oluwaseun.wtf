@@ -1,3 +1,3 @@
-# NextJs Template
+## Oluwaseun.wtf
 
-## Make sure you go through every file and edit it to fit what works for you, replace all the contents with actual values.
+Welcome to my portfolio, where I showcase my projects and experiences in the world of technology. As a passionate developer and tech enthusiast, I'm excited to share my journey with you.
