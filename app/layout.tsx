@@ -22,14 +22,14 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://oluwaseun.dev"),
+  metadataBase: new URL("https://oluwaseun.wtf"),
   icons: {
     icon: "/icon.png",
   },
   title: "Oluwaseun Tanimola | Portfolio",
   description: "Backend Engineer and developer showcasing projects and skills",
   applicationName: "Portfolio",
-  authors: [{ name: "Oluwaseun Tanimola", url: "https://oluwaseun.dev" }],
+  authors: [{ name: "Oluwaseun Tanimola", url: "https://oluwaseun.wtf" }],
   keywords: [
     "Portfolio",
     "Backend Engineer",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    url: "https://oluwaseun.dev",
+    url: "https://oluwaseun.wtf",
     title: "Oluwaseun Tanimola | Portfolio",
     siteName: "Oluwaseun Tanimola Portfolio",
     locale: "en_US",
@@ -63,8 +63,8 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    site: "@OluwaseunT",
-    creator: "@OluwaseunT",
+    site: "@tanimola_jnr",
+    creator: "@tanimola_jnr",
     title: "Oluwaseun Tanimola | Portfolio",
     description:
       "Backend Engineer and developer showcasing projects and skills",
