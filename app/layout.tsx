@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icon.png",
   },
-  title: "Oluwaseun Tanimola | Portfolio",
-  description: "Backend Engineer and developer showcasing projects and skills",
+  title: "Oluwaseun Tanimola",
+  description: "Backend Engineer",
   applicationName: "Portfolio",
   authors: [{ name: "Oluwaseun Tanimola", url: "https://oluwaseun.wtf" }],
   keywords: [
@@ -50,24 +50,23 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://oluwaseun.wtf",
-    title: "Oluwaseun Tanimola | Portfolio",
-    siteName: "Oluwaseun Tanimola Portfolio",
+    title: "Oluwaseun Tanimola",
+    siteName: "Oluwaseun Tanimola",
     locale: "en_US",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Oluwaseun Tanimola Portfolio",
+        alt: "Oluwaseun Tanimola",
       },
     ],
   },
   twitter: {
     site: "@tanimola_jnr",
     creator: "@tanimola_jnr",
-    title: "Oluwaseun Tanimola | Portfolio",
-    description:
-      "Backend Engineer and developer showcasing projects and skills",
+    title: "Oluwaseun Tanimola",
+    description: "Backend Engineer",
     card: "summary_large_image",
     images: ["/og-image.jpg"],
   },

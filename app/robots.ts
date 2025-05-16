@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://oluwaseun.dev/sitemap.xml",
-    host: "https://oluwaseun.dev",
+    sitemap: "https://oluwaseun.wtf/sitemap.xml",
+    host: "https://oluwaseun.wtf",
   };
 }
