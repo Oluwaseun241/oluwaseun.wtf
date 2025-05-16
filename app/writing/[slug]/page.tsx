@@ -1,3 +1,4 @@
+import { Metadata } from "next/types";
 import { notFound } from "next/navigation";
 import { Animation, Navigation, Footer } from "../../components/global";
 import {
@@ -6,6 +7,13 @@ import {
   ArticleMetadata,
 } from "../../lib/markdown";
 
+interface Article extends ArticleMetadata {
+  content: string;
+  excerpt?: string;
+}
+
+type ParamsType = Promise<{ slug: string }>;
+
 export async function generateStaticParams() {
   const articles = await getAllArticles();
   return articles.map((article) => ({
@@ -13,17 +21,35 @@ export async function generateStaticParams() {
   }));
 }
 
-interface Article extends ArticleMetadata {
-  content: string;
+export async function generateMetadata({
+  params,
+}: {
+  params: ParamsType;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const article = (await getArticleBySlug(slug)) as Article;
+
+  if (!article) {
+    return {
+      title: "Article Not Found",
+    };
+  }
+
+  return {
+    title: article.title,
+    description: article.excerpt || `Article by Oluwaseun Tanimola`,
+    openGraph: {
+      title: article.title,
+      description: article.excerpt || `Article by Oluwaseun Tanimola`,
+      type: "article",
+      publishedTime: article.date,
+    },
+  };
 }
 
-type ArticlePageParams = {
-  params: { slug: string };
-  searchParams?: { [key: string]: string | string[] | undefined };
-};
-
-export default async function ArticlePage({ params }: ArticlePageParams) {
-  const article = (await getArticleBySlug(params.slug)) as Article;
+export default async function ArticlePage({ params }: { params: ParamsType }) {
+  const { slug } = await params;
+  const article = (await getArticleBySlug(slug)) as Article;
 
   if (!article) {
     notFound();
