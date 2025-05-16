@@ -30,7 +30,11 @@ export default function HomePage() {
               </p>
 
               <p className="text-lg text-gray-700 dark:text-gray-300">
-                🚀 Kindly reach out if you are hiring or need an engineer for your project! My expertise lies in Golang, Node.js and Python projects but am open to exploring new tech.
+                💻 I am a linux enthusiast which i use it as my daily driver. I have used various distros over the years like ubuntu, openSUSE(tumbleweed), manjaro and now settled on fedora. I use neovim too btw 🤓.
+              </p>
+
+              <p className="text-lg text-gray-700 dark:text-gray-300">
+                🚀 Kindly reach out if you are hiring or need an engineer for your project! My expertise lies in Golang, Typescript and Python projects but am open to exploring new tech.
               </p>
             </div>
           </AnimatedContent>

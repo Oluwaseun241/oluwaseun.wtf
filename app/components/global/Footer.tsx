@@ -16,7 +16,7 @@ export function Footer({ className = "" }: FooterProps) {
       className={`flex justify-between pt-12 text-sm text-gray-500 dark:text-gray-400 ${className}`}
     >
       <div className="flex items-center gap-0.5">
-        © {new Date().getFullYear()}, <p>somewhere in the metaverse.</p>
+        © {new Date().getFullYear()} | <p className="items-center text-center ml-1">somewhere in the terminal.</p>
       </div>
       <Link href="/contact" className="relative group">
         <span className="cursor-pointer">👋 Chat</span>
