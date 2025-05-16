@@ -1,6 +1,6 @@
 ---
 title: "Reverse proxy; as load balancer"
-date: "2024-03-20"
+date: "2024"
 summary: "A deep dive into building a reverse proxy load balancer using Golang, exploring concepts of proxies, reverse proxies, and load balancing."
 ---
 
