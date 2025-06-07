@@ -39,7 +39,7 @@ export default function CareerPage() {
                   <div className="flex justify-between items-start">
                     <h3 className="font-medium dark:text-white">AI Engineer</h3>
                     <span className="text-gray-500 dark:text-gray-400 text-sm">
-                      Mar 2024 — Present
+                      Mar 2024 — May 2025
                     </span>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300">

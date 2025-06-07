@@ -25,7 +25,7 @@ export default function ProjectsPage() {
     {
       title: "Apple Alert",
       description: "Show alerts in the Apple style, like the one used when toggling silent mode",
-      year: "2024",
+      year: "2025",
       link: "https://github.com/Oluwaseun241/apple-alert",
       tags: ["React Native", "Typescript", "Expo"],
     },
