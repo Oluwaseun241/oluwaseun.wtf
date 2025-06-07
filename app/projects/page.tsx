@@ -15,6 +15,13 @@ interface Project {
 export default function ProjectsPage() {
   const projects: Project[] = [
     {
+      title: "Apple Alert",
+      description: "Show alerts in the Apple style, like the one used when toggling silent mode",
+      year: "2025",
+      link: "https://github.com/Oluwaseun241/apple-alert",
+      tags: ["React Native", "Typescript", "Expo"],
+    },
+    {
       title: "Tastrees AI",
       description:
         "You've got an image of already cooked food say less we will help you recreate it by serving you the recipe and instructions.",
