@@ -30,13 +30,6 @@ export default function ProjectsPage() {
       tags: ["Golang", "Nuxt"],
     },
     {
-      title: "Apple Alert",
-      description: "Show alerts in the Apple style, like the one used when toggling silent mode",
-      year: "2025",
-      link: "https://github.com/Oluwaseun241/apple-alert",
-      tags: ["React Native", "Typescript", "Expo"],
-    },
-    {
       title: "Registro",
       description: "A blockchain-based event ledger.",
       year: "2024",
